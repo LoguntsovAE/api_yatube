@@ -31,7 +31,7 @@ class Migration(migrations.Migration):
                 ('text', models.TextField()),
                 ('created', models.DateTimeField(auto_now_add=True, db_index=True, verbose_name='Дата добавления')),
                 ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to=settings.AUTH_USER_MODEL)),
-                ('post', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='api.Post')),
+                ('post', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='posts.Post')),
             ],
         ),
     ]

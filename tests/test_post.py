@@ -1,5 +1,5 @@
 import pytest
-from posts.models import Post
+from api.models import Post
 
 
 class TestPostAPI:

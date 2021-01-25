@@ -4,4 +4,3 @@ pillow
 sorl-thumbnail
 django
 djangorestframework
-django-cors-headers
